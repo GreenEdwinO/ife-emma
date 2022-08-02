@@ -215,6 +215,7 @@ body {
   .seemore {
     font-size: .9rem;
     margin-left: 2%;
+    margin-right: 2%;
   }
   .ife-div-In-app {
     display: flex;
