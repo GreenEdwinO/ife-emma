@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Section from './Section'
+import TheHead from './Header'
+import IfeData from './IfeData'
 
-function App() {
+
+export default function App() {
+  const IfeItems = IfeData.map(IfeThings => {
+    return (
+      <Section
+      key={IfeThings.id}
+      {...IfeThings}/>
+      )
+  })
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <TheHead />
+      <h3 className="seemore">Last updated 01 August, 2022. Come back again to see more of my new updates...</h3>
+      <div className="ife-div-In-app">
+      {IfeItems}
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+
