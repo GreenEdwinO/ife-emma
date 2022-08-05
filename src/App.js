@@ -29,7 +29,7 @@ const paginate = (pageNumber) => setCurrentPage(pageNumber)
   return (
     <div>
       <TheHead />
-      <h3 className="seemore">Enjoy My Picture-Stories 🎉🎈 <br />Last Updated 04 August, 2022. Come Back Again To See New Updates.</h3>
+      <h3 className="seemore">Enjoy My Picture-Stories 🎉🎈 <br />Last Updated 04 August, 2022. Come Back Another Time To See New Updates 😊</h3>
       <hr/>
       <div className="ife-div-In-app">
       {currentPosts}
