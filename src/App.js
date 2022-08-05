@@ -2,9 +2,14 @@ import React from 'react'
 import Section from './Section'
 import TheHead from './Header'
 import IfeData from './IfeData'
+import Pagination from './Pagination'
 
 
 export default function App() {
+  //Pagination code
+  const [currentPage, setCurrentPage] = React.useState(1);
+  const [postsPerPage] = React.useState(6);
+
   const IfeItems = IfeData.map(IfeThings => {
     return (
       <Section
@@ -13,12 +18,26 @@ export default function App() {
       )
   })
 
+  //Pagination code cont
+  const indexOfLastPost = currentPage * postsPerPage;
+  const indexOfFirstPost = indexOfLastPost - postsPerPage;
+  const currentPosts = IfeItems.slice(indexOfFirstPost, indexOfLastPost );
+
+  // Change page
+const paginate = (pageNumber) => setCurrentPage(pageNumber)
+
   return (
     <div>
       <TheHead />
-      <h3 className="seemore">Last updated 01 August, 2022. Come back again to see more of my new updates...</h3>
+      <h3 className="seemore">Enjoy My Picture-Stories 🎉🎈 <br />Last Updated 04 August, 2022. Come Back Again To See New Updates.</h3>
+      <hr/>
       <div className="ife-div-In-app">
-      {IfeItems}
+      {currentPosts}
+      </div>
+      <div className="padd">
+      <div className='container mt-3'>
+      <Pagination postsPerPage={postsPerPage} totalPosts={IfeItems.length} paginate={paginate}/>
+      </div>
       </div>
     </div>
   )

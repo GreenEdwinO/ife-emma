@@ -1,10 +1,42 @@
 export default [
   {
+    id: 46,
+    title: "At Ebuka's JSS3 Graduation",
+    date: "4 August 2022",
+    location: "Meekfield Academy, D/Line, PH",
+    discription: "Ebuka is now going to be a senior student 🎉🍾",
+    imgUrl: "/images/ebk.png",
+  },
+  {
+    id: 45,
+    title: "Ebuka's Graduation Day",
+    date: "4 August 2022",
+    location: "Meekfield, D/Line, PH",
+    discription: "why were they smiling?!",
+    imgUrl: "/images/gg.png",
+  },
+  {
+    id: 44,
+    title: "Graduation Day",
+    date: "4 August 2022",
+    location: "Meekfield, D/Line, PH",
+    discription: "Ebuka please carry me well or drop me 😋",
+    imgUrl: "/images/gg2.png",
+  },
+  {
+    id: 43,
+    title: "I'm beginning to walk",
+    date: "3 August 2022",
+    location: "My school, D/Line, PH",
+    discription: "I'm trying, even as my leg hurts",
+    imgUrl: "/images/wl.png",
+  },
+  {
     id: 42,
     title: "Hot water poured on my leg",
     date: "1 August 2022",
-    location: "Home, D/Line, PH",
-    discription: "This happened two days ago, it hurts sometimes",
+    location: "Front of home, D/Line, PH",
+    discription: "This happened 2 days ago, it hurts sometimes",
     imgUrl: "/images/wa2.png",
   },
   {
@@ -33,7 +65,7 @@ export default [
   },
   {
     id: 38,
-    title: "I can now stand; 8 months going to 9",
+    title: "I can stand, 8months going to 9",
     date: "01 July 2022",
     location: "Home, D/Line, PH",
     discription: "Guess I'm enjoying it",
