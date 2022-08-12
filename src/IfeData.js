@@ -73,7 +73,7 @@ export default [
   },
   {
     id: 43,
-    title: "I'm beginning to walk",
+    tstayitle: "I'm beginning to walk",
     date: "3 August 2022",
     location: "My school, D/Line, PH",
     discription: "I'm trying, even as my leg hurts",
