@@ -1,10 +1,26 @@
 export default [
   {
+    id: 58,
+    title: "I Got Swag 🤗",
+    date: "21 August 2022",
+    location: "Home, D/Line, PH",
+    discription: "My Mummy is doing well",
+    imgUrl: "/images/bestme.png",
+  },
+  {
+    id: 57,
+    title: "Getting Ready to Swag 🤗",
+    date: "21 August 2022",
+    location: "Home, D/Line, PH",
+    discription: "Arranging myself well ",
+    imgUrl: "/images/bestme1.png",
+  },
+  {
     id: 56,
     title: "Making me wear over size shirt 🤗",
     date: "17 August 2022",
     location: "Outside, School, D/Line, PH",
-    discription: "Got wounded on my left eye day before yesterday",
+    discription: "Got wounded on my face day before yesterday",
     imgUrl: "/images/17.png",
   },
   {
@@ -28,7 +44,7 @@ export default [
     title: "Today I'm 10-Months old",
     date: "13 August 2022",
     location: "Home, D/Line, PH",
-    discription: "Me and my mummy",
+    discription: "Me goofing around",
     imgUrl: "/images/bdb.png",
   },
   {
