@@ -29,7 +29,7 @@ export default function App() {
   return (
     <div>
       <TheHead />
-      <h3 className="seemore">Enjoy My Picture-Stories 🎉🎈 <br />Last Updated September 12, 2022. Come Back Another Time To See New Updates 😊</h3>
+      <h3 className="seemore">Enjoy My Picture-Stories 🎉🎈 <br />Last Updated September 23, 2022. Come Back Another Time To See New Updates 😊</h3>
       <hr />
       <div className="ife-div-In-app">
         {currentPosts}

@@ -1,5 +1,13 @@
 export default [
   {
+    id: 66,
+    title: "Home, Ready for School",
+    date: "23 September 2022",
+    location: "Home, D/Line, PH",
+    discription: "Like any other day!",
+    imgUrl: "/images/23 Sep.jpg",
+  },
+  {
     id: 65,
     title: "Funny People, see what they did to me",
     date: "11 September 2022",
