@@ -1,7 +1,23 @@
 export default [
   {
+    id: 68,
+    title: "I've Got Ballons -Today My Birthday!",
+    date: "13 October 2022",
+    location: "RedKarpet, GRA, PH",
+    discription: "I am a Year Old!",
+    imgUrl: "/images/Bd1.jpg",
+  },
+  {
+    id: 67,
+    title: "Still My Birthday",
+    date: "13 October 2022",
+    location: "RedKarpert, GRA, PH",
+    discription: "I am a Year Old!",
+    imgUrl: "/images/Bd2.jpg",
+  },
+  {
     id: 66,
-    title: "Home, Ready for School",
+    title: "Home, Ready For School",
     date: "23 September 2022",
     location: "Home, D/Line, PH",
     discription: "Like any other day!",
@@ -385,7 +401,7 @@ export default [
     imgUrl: "/images/bv.png",
   },
   {
-    id: 19/20,
+    id: 19 / 20,
     title: "I've got swag 🧢",
     date: "22 Dec. 2021",
     location: "At home. D/Line, PH",
@@ -416,15 +432,15 @@ export default [
     discription: "Me happy just after waking 🤭",
     imgUrl: "/images/wc.png",
   },
-{
-  id: 16,
-  title: "My Mummy & I goofing around 🎭",
-  date: "18 Nov. 2021",
-  location: "At home",
-  discription: "Me happy just after eating 🤭",
-  imgUrl: "/images/pl.png",
-},  
-{
+  {
+    id: 16,
+    title: "My Mummy & I goofing around 🎭",
+    date: "18 Nov. 2021",
+    location: "At home",
+    discription: "Me happy just after eating 🤭",
+    imgUrl: "/images/pl.png",
+  },
+  {
     id: 15,
     title: "All I had to do was sleep 👼🏼",
     date: "17 Nov. 2021",

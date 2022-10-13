@@ -1,5 +1,4 @@
 import React from "react";
-// import locat from "/images/locat.png"
 
 export default function Section(IfeThings) {
   return (
