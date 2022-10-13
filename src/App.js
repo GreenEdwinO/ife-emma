@@ -43,7 +43,7 @@ export default function App() {
         {currentImages}
       </div>
 
-       {/* Pagination code */}
+      {/* Pagination code */}
       <div className="pagination">
         <ReactPaginate
           breakLabel="..."

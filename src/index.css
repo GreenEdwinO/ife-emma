@@ -8,7 +8,7 @@ body {
   align-items: center;
   box-sizing: border-box;
   justify-content: center;
-  justify-items: center
+  justify-items: center;
 }
 
 .head-nav {
@@ -82,9 +82,9 @@ body {
   height: 400px;
   justify-items: center;
   margin-top: 5%;
-  padding: 12px;
+  padding: 6px;
   place-items: center;
-  width: 400px
+  max-width: 375px
 }
 
 .Section-body1 {
@@ -191,17 +191,15 @@ body {
     gap: 2px;
     grid-template: auto auto/repeat(2, 1fr)
   }
-
-  .pagination {
-    padding: 6px;
-  }
-
-  .material-icons {
-    width: .9rem;
-  }
 }
 
 @media screen and (max-width: 460px) {
+
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
   .head-nav {
     height: 80px
   }
@@ -211,7 +209,6 @@ body {
     font-size: 1rem;
     margin-left: 1rem;
     margin-right: .1rem;
-    /* margin-top: .rem; */
   }
 
   .head-nav img {
