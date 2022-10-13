@@ -22,13 +22,13 @@ export default function App() {
 
   // Pagination code
   useEffect(() => {
-    const endOffset = imagesOffset + 9;
+    const endOffset = imagesOffset + 6;
     setCurrentImages(IfeItems.slice(imagesOffset, endOffset));
-    setPageCount(Math.ceil(IfeItems.length / 9));
+    setPageCount(Math.ceil(IfeItems.length / 6));
   }, [IfeItems, imagesOffset]);
 
   const handlePageClick = (event) => {
-    const newOffset = (event.selected * 9) % IfeItems.length;
+    const newOffset = (event.selected * 6) % IfeItems.length;
     setImagesOffset(newOffset);
   };
 
@@ -37,6 +37,7 @@ export default function App() {
       <TheHead />
 
       <h3 className="seemore">Enjoy My Picture-Stories 🎉🎈 <br />Last Updated October 13, 2022. Come Back Another Time To See New Updates 😊</h3>
+
       <hr />
 
       <div className="ife-div-In-app">

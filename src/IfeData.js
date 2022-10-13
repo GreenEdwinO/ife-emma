@@ -1,7 +1,7 @@
 export default [
   {
     id: 68,
-    title: "I've Got Ballons -Today My Birthday!",
+    title: "I've Got Balloons Today -My Birthday🎉🥳",
     date: "13 October 2022",
     location: "RedKarpet, GRA, PH",
     discription: "I am a Year Old!",
@@ -9,7 +9,7 @@ export default [
   },
   {
     id: 67,
-    title: "Still My Birthday",
+    title: "Still My Birthday Things",
     date: "13 October 2022",
     location: "RedKarpert, GRA, PH",
     discription: "I am a Year Old!",
@@ -41,7 +41,7 @@ export default [
   },
   {
     id: 63,
-    title: "Arriving School 🤗",
+    title: "Arriving School In Style 🤗",
     date: "8 September 2022",
     location: "D/Line, PH",
     discription: "School get me thinking",
