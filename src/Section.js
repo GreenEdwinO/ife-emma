@@ -22,5 +22,3 @@ export default function Section(IfeThings) {
     </header>
   );
 }
-
-// 📅 🌍
