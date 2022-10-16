@@ -67,6 +67,7 @@ export default function App() {
           activeClassName={"active"}
         />
       </div>
+      <p style={{ fontSize: "0.8rem", textAlign: "center", marginBottom: "1rem" }}>Made with 💝 by <a href="https://greenojegwo.netlify.app/" style={{ textDecoration: "none", color: "green" }}>Green</a></p>
     </div>
   )
 }
