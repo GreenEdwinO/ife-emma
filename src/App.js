@@ -36,7 +36,7 @@ export default function App() {
     <div>
       <TheHead />
 
-      <h3 className="seemore">Enjoy My Picture-Stories 🎉🎈 <br />Last Updated October 13, 2022. Come Back Another Time To See New Updates 😊</h3>
+      <h3 className="seemore">Enjoy My Picture-Stories 🎉🎈 <br />Last Updated October 26, 2022. Come Back Another Time To See New Updates 😊</h3>
 
       <hr />
 

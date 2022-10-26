@@ -1,5 +1,37 @@
 export default [
   {
+    id: 72,
+    title: "Arriving School and Smiling Wild",
+    date: "20 October 2022",
+    location: "School, DLine, PH",
+    discription: "Having fun going to school, though arriving late 😋",
+    imgUrl: "/images/oct26.jpg",
+  },
+  {
+    id: 71,
+    title: "Arriving School and Smiling Wild",
+    date: "20 October 2022",
+    location: "School, DLine, PH",
+    discription: "Having fun going to school, though arriving late 😋",
+    imgUrl: "/images/oct20.jpg",
+  },
+  {
+    id: 70,
+    title: "Arriving School",
+    date: "20 October 2022",
+    location: "School, DLine, PH",
+    discription: "I'm Enjoying this school thingy",
+    imgUrl: "/images/oct20b.jpg",
+  },
+  {
+    id: 69,
+    title: "I and Dad Chilling 🥳",
+    date: "15 October 2022",
+    location: "Home, DLine, PH",
+    discription: "Judt goofing at home",
+    imgUrl: "/images/oct15.jpg",
+  },
+  {
     id: 68,
     title: "I've Got Balloons Today -My Birthday🎉🥳",
     date: "13 October 2022",
@@ -9,7 +41,7 @@ export default [
   },
   {
     id: 67,
-    title: "Still My Birthday Things",
+    title: "Still My Birthday Things 🥳🎈🥂🍾",
     date: "13 October 2022",
     location: "RedKarpert, GRA, PH",
     discription: "I am a Year Old!",
